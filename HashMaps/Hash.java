@@ -13,5 +13,16 @@ public class Hash
 
         System.out.println();
         System.out.println(map.get("Harsh"));
+
+        HashSet<Integer> set = new HashSet<>();
+        set.add(56);
+        set.add(80);
+        set.add(9);
+        set.add(100);
+        set.add(45);
+        set.add(56);
+        set.add(49);
+
+        System.out.println(set);
     }    
 }
